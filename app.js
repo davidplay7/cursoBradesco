@@ -2,8 +2,6 @@
 
 const switcher = document.querySelector('.btn');
 
-//console.log (switcher);
-
 switcher.addEventListener('click', function(){
   document.body.classList.toggle('dark-theme')
   var className = document.body.className;
@@ -13,6 +11,7 @@ switcher.addEventListener('click', function(){
   }
   else{
     this.textContent = "Light";
+    
   }
   console.log ('current class name: ' + className);
 });

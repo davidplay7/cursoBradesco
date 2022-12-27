@@ -1,5 +1,5 @@
 :root{
-  --green: #00FF00;
+  --green: #00ff00;
   --white: #ffffff;
   --black: #000000;
   
@@ -18,13 +18,13 @@
 }
 
 .btn:focus{
-  online-style:none;
+  online-style: none;
 }
 
 body {
 
 background: var(--bg);
-
+color: var(--fontColor);
 }
 
 ul {
@@ -53,10 +53,12 @@ list-style: square;
 --btnFontColor: var(--white);
 }
 
-.dark-theme{
+.dark-theme {
   
   --bg: var(--black);
   --fontColor: var(--green);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
+
+  
 }
